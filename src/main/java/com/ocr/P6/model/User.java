@@ -12,22 +12,6 @@ public class User {
 
     private String name;
 
-    User() {
-        this.name = "Remplacez moi";
-        this.id =  new Long(0);
-        System.out.println("j'ai créé un user");
-    }
-
-    User(String nouveauNom) {
-        this.name = nouveauNom;
-    }
-
-    User(String nouveauNom, Long nouveauID) {
-        this.name = nouveauNom;
-        this.id = nouveauID;
-    }
-
-
     @Override
     public String toString() {
         return "user{" +
