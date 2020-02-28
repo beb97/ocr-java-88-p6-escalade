@@ -6,6 +6,6 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>User</servlet-name>
-        <url-pattern>/UserServlet</url-pattern>
+        <url-pattern>/test</url-pattern>
     </servlet-mapping>
 </web-app>
