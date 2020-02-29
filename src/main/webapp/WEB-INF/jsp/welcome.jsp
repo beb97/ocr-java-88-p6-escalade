@@ -8,6 +8,10 @@
 </head>
 <body>
 <h1>Hello</h1>
-This is a JSP for : ${user}
+<img src="/img/world.png"/>
+<p>
+    This is a JSP for : ${user}
+</p>
+
 </body>
 </html>
